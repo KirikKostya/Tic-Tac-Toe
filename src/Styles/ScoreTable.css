@@ -1,0 +1,35 @@
+.containerForResults{
+    display: flex;
+    flex-direction: row;
+  }
+ h3{
+    margin: 0;
+  }
+  h2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    /* text-decoration: underline; */
+    color: rgb(172, 123, 218);
+  }
+  h2 h3{
+    color:#FFFFFF !important
+  }
+  .conteinerForScore h1{
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  .mainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+.stepCross{
+  align-items: center;
+}  
+.containerForResults .Player{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}

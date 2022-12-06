@@ -1,0 +1,84 @@
+#mainField{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.lineField li{
+    margin: 1px;
+    width: 70px;
+    height: 70px;
+    list-style: none;
+    border: 2px solid rgb(145, 1, 101) ;
+}
+.lineField{
+    display: flex; 
+    flex-direction: row;
+}
+.circle{
+    width: 45px;
+    height: 45px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin: 4px;
+}
+.cross{
+    background-image: url('../17047.png');
+    background-size:contain;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+li div{
+    padding: 5px;
+    margin-left: 2px;
+    width: 70px;
+    height: 70px;
+}
+.stepCircle{
+    width: 15px;
+    height: 15px;
+    border: 3px solid rgb(218, 216, 216);
+    border-radius: 50%;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+.stepCross{
+    background-image: url('../17047.png');
+    background-size:contain;
+    width: 20px;
+    height: 20px;
+    margin-top: 7px;
+    margin-left: 10px;
+}
+#step{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 80px;
+    height: 30px;
+    background-color: rgb(111, 14, 202);
+    border: none;
+    margin: 5px;
+    border-radius: 20px;
+    color: #ffffff
+}
+.Start:hover{
+    cursor: pointer;
+    color: rgb(28, 15, 15);
+    background-color: rgb(229, 155, 37);
+    border: 2px solid white;
+    transition: 0.2s ease-out;
+}
+.Check:hover{
+    cursor: pointer;
+    color: rgb(7, 8, 8);
+    background-color: #ffffff;
+    border: 2px solid black;
+    transition: 0.2s ease-out;
+}
+
+  
